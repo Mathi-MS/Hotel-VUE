@@ -124,6 +124,7 @@ body {
 }
 #header .navbar-scroll{
     background-color: black;
+    padding: 10px 65px;
 }
 /* ==================================carousel========================================  */
 #carousel .carousel-control-next, .carousel-control-prev {
@@ -285,6 +286,161 @@ body {
 #experience  img{
     position: absolute;
     top: 145px;
+    left: 120px;
+}
+/* ===============================amentities=================================  */
+#amentities{
+    background:url(../images/ambackground.png);
+    padding: 120px 0px;
+    position: relative;
+}
+#amentities .amentities-content{
+    text-align: center;
+}
+#amentities .amentities-content h2{
+    font-family: 'Exodus-PersonalUse-Sharpen';
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 45px;
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+#amentities .amentities-content .amen {
+    margin: 20px auto;
+    width: 85%;
+}
+#amentities .amentities-content .amen .item {
+    width: 135px;
+}
+#amentities .amentities-content .amen .item .amimg{
+    background-color:#fff2d9;
+    width: 135px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#amentities .amentities-content .amen .item .amimg img{
+    width:70px;
+    height:70px;
+}
+#amentities .amentities-content .amen .item h3{
+    font-family: 'Poppins-Medium';
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px 0px;
+}
+#amentities  .owl-carousel .owl-nav button.owl-next svg{
+    font-size: 20px;
+    color: #F7BB4C;
+}
+#amentities  .owl-carousel .owl-nav button.owl-prev{
+    border: solid 1px #F7BB4C;
+    color: inherit;
+    padding: 0!important;
+    font: inherit;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    left: -70px;
+}
+#amentities  .owl-carousel .owl-nav button.owl-prev:hover{
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    svg{
+        color: white;
+    }
+}
+#amentities  .owl-carousel .owl-nav button.owl-prev svg{
+    font-size: 20px;
+    color: #F7BB4C;
+}
+#amentities  .owl-carousel .owl-nav button.owl-next:focus{
+    outline: none;
+}
+#amentities  .owl-carousel .owl-nav button.owl-prev:focus{
+    outline: none;
+}
+#amentities  .owl-carousel .owl-nav button.owl-next{
+    border: solid 1px #F7BB4C;
+    color: inherit;
+    padding: 0!important;
+    font: inherit;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    right: -70px;
+}
+#amentities  .owl-carousel .owl-nav button.owl-next:hover{
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    svg{
+        color: white;
+    }
+}
+#amentities .owl-theme .owl-nav {
+    margin-top: 10px;
+    display: flex;
+}
+#amentities .nav-tabs .nav-link {
+    border:none;
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-family: 'Poppins-Medium';
+    text-transform: uppercase;
+    border-bottom: solid 2px transparent;
+    padding: 0px;
+    margin: 0px 35px;
+}
+#amentities .nav-tabs .active {
+    border-bottom: solid 2px #F0B549;
+}
+#amentities .nav-tabs {
+    border: none;
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+#amentities .nav-tabs .nav-link:focus{
+    outline: none;
+    border-bottom: solid 2px #F0B549;
+}
+#amentities .amentities-content a{
+    font-family:'Poppins-Semibold';
+    font-size: 16px;
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: solid 1px #F7BB4C;
+    padding:10px 15px ;
+    margin: 30px 0px 0px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#amentities .amgold{
+    position: absolute;
+    top:105px;
     left: 120px;
 }
 /* =================================review=================================== */
@@ -700,15 +856,20 @@ body {
 }
 /* ================================hear======================================  */
 #hear{
-    padding: 120px 0px;
+    padding: 120px 0px 0px 0px;
     background: url(../images/back.png);
     background-color: #fef0d6;
     position: relative;
 }
+#hear .hear-border{
+    border-bottom: solid 1px #a0731c;
+    margin:0px 80px;
+}
 #hear .hear-content{
-    width: 45%;
+    width: 50%;
     margin: 0px auto;
     text-align: center;
+    padding: 0px 0px 120px 0px;
 }
 #hear .hear-content h2{
     font-family: 'Exodus-PersonalUse-Sharpen';
@@ -765,6 +926,83 @@ body {
     padding:5px 20px ;
     margin: 50px 0px 0px 0px;
     display: inline-block;
+}
+/* ================================footer====================================  */
+#footer{
+    background: url(../images/back.png);
+    background-color: #fef0d6;
+    position: relative;
+}
+#footer .footer-content{
+    padding: 120px 25px;
+    text-align: center;
+    background: url(../images/footerback.png);
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 100%;
+}
+#footer .footer-content .footerliatone{
+    margin:50px 0px 30px 0px;
+}
+#footer .footer-content .footerliatone li{
+    display: inline-block;
+}
+#footer .footer-content .footerliatone li a{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family:'Poppins-Semibold';
+    color:#39271e;
+    padding: 0px 16px;
+}
+#footer .footer-content h2{
+    font-size: 15px;
+    font-family:'Poppins-Medium';
+    color:#39271e;
+}
+#footer .footer-content h3{
+    font-size: 20px;
+    font-family:'Poppins-Semibold';
+    color:#a0731c;
+    margin: 25px 0px;
+}
+#footer .footer-content .footerliattwo{
+    margin:20px 0px 0px 0px;
+}
+#footer .footer-content .footerliattwo li{
+    display: inline-block;
+}
+#footer .footer-content .footerliattwo li a{
+    font-size: 15px;
+    font-family:'Poppins-Medium';
+    color:#39271e;
+    padding: 0px 13px;
+}
+#footer .footer-content h4{
+    font-size: 15px;
+    font-family:'Poppins-Medium';
+    color:#39271e;
+}
+#footer .footer-content h4 span{
+    color:#a0731c;
+}
+#footer .footer-content p {
+    display: flex;
+    justify-content: center;
+    margin:35px 0px;
+}
+#footer .footer-content p a{
+    color:#fff2d9;
+    background-color: #a0731c;
+    border-radius: 200px;
+    width: 35px;
+    height: 35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+#footer .footer-content p svg{
+    font-size: 20px;
 }
 /* ==========================================================================  */
 @media (max-width: 5120px) {
