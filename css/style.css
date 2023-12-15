@@ -288,6 +288,256 @@ body {
     top: 145px;
     left: 120px;
 }
+/* ==============================room==================================  */
+#room{
+    padding: 120px 0px;
+    background: url(../images/back.png);
+    background-color: #fef0d6;
+    position: relative;
+}
+#room .room-content{
+    width: 40%;
+    margin: 0px auto;
+    text-align: center;
+}
+#room .room-content h2{
+    font-family: 'Exodus-PersonalUse-Sharpen';
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #a0731c;
+    padding:45px 0px;
+    line-height: 50px;
+}
+#room .room-content .pone{
+    font-family:'Poppins-Medium';
+    font-size: 17px;
+    text-align: justify;
+    margin: 20px 0px;
+    color:#39271e;
+}
+#room .roomimg{
+    position: absolute;
+    top: 145px;
+    left: 120px;
+}
+#room .slick {
+    margin: 0px 290px;
+}
+#room .classone{
+    width:756px;
+    height: 406px;
+}
+#room .classone .item{
+    width:756px;
+    height: 406px;
+    position: relative;
+}
+#room .classone .item img{
+    width:100%;
+    height:100%;
+    padding: 0px 2px;
+}
+#room .classone .item .slick-border{
+    width:726px;
+    height: 376px;
+    border: solid 2px #a0731c;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+#room .left-arrow{
+    width: 45px;
+    height: 45px;
+    background-color: #a0731c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    z-index: 9;
+    position: absolute;
+    top:180px;
+    left: -20px;
+    color: #fef0d6;
+}
+#room .right-arrow{
+    width: 45px;
+    height: 45px;
+    background-color: #a0731c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    z-index: 9;
+    position: absolute;
+    top:180px;
+    right:-20px;
+    color: #fef0d6;
+}
+#room .classtwo{
+    width:756px;
+    height: 135px;
+    margin: -15px 0px;
+}
+#room .classtwo .item{
+    width: 100%;
+    height: 135px;
+}
+#room .classtwo .item img {
+    width: 100%;
+    height: 135px;
+    padding: 0px 2px;
+}
+#room .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: #af9981;
+    border-radius: 200px;
+}
+#room .slick-dots .slick-active > button{
+    background: #F7BB4C;
+    background: repeating-radial-gradient(ellipse farthest-side at left center, #F7BB4C 0%, #FBCA7D 26%, #F0B549 49%, #FBCA7D 77%, #F0B549 100%);
+}
+#room  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    display: block;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+#room  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#room .room-flex {
+    display: flex;
+    margin:50px 0px;
+    width: 100%;
+    gap: 40px;
+}
+#room .room-flex .flex-one {
+    width: 55%;
+}
+#room .room-flex .flexone-two {
+    width:45%;
+}
+#room .room-flex .flex-one h2{
+    font-family: 'Exodus-PersonalUse-Sharpen';
+    font-size:38px;
+    text-transform: uppercase;
+    color: #a0731c;
+}
+#room .room-flex .flex-one p{
+    font-family: 'Poppins-Medium';
+    font-size:17px;
+    color: #39271e;
+    padding: 30px 0px;
+}
+#room .room-flex .flex-one h4{
+    font-family: 'Poppins-Medium';
+    font-size:16px;
+    color: #a0731c;
+    margin: 30px 0px;
+    border-bottom: solid 1px #a0731c;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#room .room-flex .flex-two h3{
+    font-family: 'Poppins-Medium';
+    font-size:17px;
+    color: #39271e;
+    margin: 0px 0px 30px 50px;
+    border-bottom: solid 1px #a0731c;
+    padding:10px 30px 10px 0px;
+    text-transform: uppercase;
+}
+#room .room-flex .flex-two h3 img{
+    margin:0px 20px 0px 0px;
+}
+#room .room-flex .flex-one .anchorone{
+    font-family:'Poppins-Semibold';
+    font-size: 16px;
+    color: #a0731c;
+    border: solid 1px #a0731c;
+    padding:10px 15px ;
+    margin: 10px 20px 0px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#room .room-flex .flex-two .anchorone{
+    font-family:'Poppins-Semibold';
+    font-size: 16px;
+    color: #a0731c;
+    border: solid 1px #a0731c;
+    padding:10px 15px ;
+    margin: 50px 20px 0px 50px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#room .room-flex .flex-one .anchortwo{
+    font-family:'Poppins-Semibold';
+    font-size: 16px;
+    background: #a0731c;
+    color: #fff2d9;
+    border: solid 1px #a0731c;
+    padding:10px 15px ;
+    margin: 10px 0px 0px 0px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#room .nav-tabs {
+    border-bottom:none;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+#room  .nav-tabs .nav-link {
+    color: #39271e;
+    background-color: transparent;
+    border:none;
+    font-family: 'Poppins-Medium';
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: solid 2px transparent;
+    margin:0px 30px;
+    padding: 0px;
+}
+#room  .nav-tabs .nav-link:hover {
+    color: #a0731c;
+    border-bottom: solid 2px #a0731c;
+}
+#room  .nav-tabs .nav-link:focus {
+    color: #a0731c;
+    border-bottom: solid 2px #a0731c;
+}
+#room  .nav-tabs .active{
+    color: #a0731c;
+    border-bottom: solid 2px #a0731c;
+}
+#room  .nav-tabs .nav-link:focus {
+    outline: none;
+}
 /* ===============================amentities=================================  */
 #amentities{
     background:url(../images/ambackground.png);
@@ -477,11 +727,19 @@ body {
 #photo .photoowl .item{
     width: 280px;
     height: 290px;
+    position: relative;
 }
-#photo .photoowl .item img{
+#photo .photoowl .item .itemoneimg{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+#photo .photoowl .item .itemtwoimg{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+    z-index: 990;
+    width: 20px;
 }
 #photo  .owl-carousel .owl-nav button.owl-next svg{
     font-size: 30px;
@@ -1026,7 +1284,7 @@ body {
 #hear .hear-content input{
     width: 90%;
     margin: 20px auto 0px auto;
-    padding:22px 0px 22px 20px ;
+    padding:22px 0px 22px 0px ;
     background-color: transparent;
     border: none;
     border-bottom: #9f8d73 solid 2px;
@@ -1044,7 +1302,7 @@ body {
 #hear .hear-content textarea{
     width: 90%;
     margin: 20px auto 0px auto;
-    padding:22px 0px 22px 20px ;
+    padding:22px 0px 22px 0px ;
     background-color: transparent;
     border: none;
     border-bottom: #9f8d73 solid 2px;
