@@ -44,7 +44,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">The Hotel Vue <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#experience">The Hotel Vue <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -53,15 +53,14 @@
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Amenities</a>
+                  <a class="nav-link" href="#amentities">Amenities</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
+                  <a class="nav-link" href="#photo">Gallery</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -70,12 +69,11 @@
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
-                      <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#info">Contact Us</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#"> Check availability</a>
@@ -160,7 +158,7 @@
         <h2>Suites &<br>Guestrooms</h2>
         <p class="pone">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
       </div>
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <ul class="nav nav-tabs" id="myTabo" role="tablist">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="homee-tab" data-toggle="tab" data-target="#homee" type="button" role="tab" aria-controls="homee" aria-selected="true">1 KING BED</button>
         </li>
@@ -174,7 +172,7 @@
           <button class="nav-link" id="contactee-tab" data-toggle="tab" data-target="#contactee" type="button" role="tab" aria-controls="contactee" aria-selected="false">2 queens beds</button>
         </li>
       </ul>
-      <div class="tab-content" id="myTabContent">
+      <div class="tab-content" id="myTabContenttt">
         <div class="tab-pane fade show active" id="homee" role="tabpanel" aria-labelledby="homee-tab">
           <div class="slick">
             <div class="classone">
@@ -227,6 +225,7 @@
                 <a class="anchorone" href="#">View all Rooms</a>
               </div>
             </div>
+        </div>
         </div>
         <div class="tab-pane fade" id="profilee" role="tabpanel" aria-labelledby="profilee-tab">
           <div class="slick">
@@ -281,6 +280,7 @@
               </div>
             </div>
         </div>
+      </div>
         <div class="tab-pane fade" id="contacte" role="tabpanel" aria-labelledby="contacte-tab"><div class="slick">
           <div class="classone">
             <div class="item">
@@ -332,6 +332,7 @@
               <a class="anchorone" href="#">View all Rooms</a>
             </div>
           </div></div>
+        </div>
         <div class="tab-pane fade" id="contactee" role="tabpanel" aria-labelledby="contactee-tab"><div class="slick">
           <div class="classone">
             <div class="item">
@@ -385,7 +386,7 @@
           </div>
         </div>
       </div>
-      
+    </div>
         <!-- ======== -->
       </div>
       <img class="roomimg" src="images/back logo.png" alt="">
@@ -1207,7 +1208,6 @@
   arrows: true,
   dots:true,
   autoplay:true,
-  fade: true,
   asNavFor: '.classtwo',
   prevArrow: "<span class='left-arrow'><i class='fa-solid fa-chevron-left'></i></span>",
   nextArrow: "<span class='right-arrow'> <i class='fa-solid fa-chevron-right'></i></span>",
@@ -1225,25 +1225,25 @@ $('.classtwo').slick({
 	
     </script>
     <script>
-      $("#contactee").click(function () {
+      $("#contactee-tab").click(function () {
         $('.classone').slick('refresh');
         $('.classtwo').slick('refresh');
       });
     </script>
     <script>
-      $("#contacte").click(function () {
+      $("#contacte-tab").click(function () {
         $('.classone').slick('refresh');
         $('.classtwo').slick('refresh');
       });
     </script>
     <script>
-      $("#profilee").click(function () {
+      $("#profilee-tab").click(function () {
         $('.classone').slick('refresh');
         $('.classtwo').slick('refresh');
       });
     </script>
     <script>
-      $("#homee").click(function () {
+      $("#homee-tab").click(function () {
         $('.classone').slick('refresh');
         $('.classtwo').slick('refresh');
       });
